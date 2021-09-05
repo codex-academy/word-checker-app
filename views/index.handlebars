@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Word checker</title>
+	<meta charset="UTF-8" />
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div class="container">
+		<h1>Word checker</h1>
+		<div class="input">
+			<i>Type a word below to see if the word is 'To short', 'Almost there!' or 'Perfect!'</i>
+		</div>
+		<form action="/check" method="POST">
+
+			<div class="input output {{style}}">
+				<span class="result ">{{message}}</span>
+			</div>
+			<div class="input">
+				<input type="text" class="word" name="word" />
+			</div>
+
+			<div class="input">
+				<strong>Words checked:</strong><span class="wordsChecked">{{wordCount}}</span>
+			</div>
+
+			<div class="input">
+				<input class="checkBtn" type="submit" value="Check" />
+			</div>
+
+
+		</form>
+
+	</div>
+
+	<script src="word-checker.js"></script>
+	<script src="index.js"></script>
+</body>
+
+</html>

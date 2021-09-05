@@ -1,0 +1,55 @@
+body {
+	font-family: sans-serif;
+	background-color: aquamarine;
+  }
+  
+  .input {
+	margin-bottom: 1em;
+  }
+  
+  input[type="submit"] {
+	padding: 1em;
+	border-radius: 0.25em;
+  }
+  
+  input[type="text"] {
+	padding: 1em;
+	border: 0.05em solid;
+	border-radius: 0.5em;
+  }
+  
+  .output {
+	width: 15em;
+	height: 2em;
+	background: coral;
+	border-radius: 0.25em;
+	color: papayawhip;
+	text-align: center;
+	padding-top: 1em;
+  }
+  
+  .word {
+	width: 15em;
+  }
+  
+  .red {
+	background-color: crimson;
+  }
+  
+  .orange {
+	background-color: coral;
+  }
+  
+  .green {
+	background-color: green;
+  }
+
+  .container {
+	  width: 50%;
+	  margin: auto;
+  }
+
+  .wordsChecked {
+	  margin: 1em;
+  }
+  
